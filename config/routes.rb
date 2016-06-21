@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'pages#superman'
+  root to: 'pages#batman-vs-superman'
   get 'pages/batman'
   get 'pages/superman'
   # The priority is based upon order of creation: first created -> highest priority.
