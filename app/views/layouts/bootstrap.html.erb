@@ -8,5 +8,8 @@
 <body>
 	<%= render partial: "/layouts/menu"%>
 	<%= yield %>
+	<%=params[:controller]%>
+	<br/>
+	<%=params[:action]%>
 </body>
 </html>
